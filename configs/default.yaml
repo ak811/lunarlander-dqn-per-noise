@@ -1,0 +1,43 @@
+project_name: "lunarlander-dqn-per-noise"
+env_name: "LunarLander-v3"
+
+seed: 42
+device: "auto"            # "cpu", "cuda", or "auto"
+
+experiments_dir: "experiments"
+run_name: ""
+
+num_episodes: 800
+max_steps_per_episode: 1000
+gamma: 0.99
+learning_rate: 1.0e-3
+
+target_update_every_episodes: 10
+train_every_steps: 4
+batch_size: 64
+replay_capacity: 100000
+min_replay_size: 2000
+
+replay_mode: "per"         # "per" | "uniform" | "online"
+
+per_alpha: 0.6
+per_beta_start: 0.4
+per_beta_frames: 200000
+per_eps: 1.0e-6
+
+exploration_mode: "param_noise"   # "param_noise" | "epsilon_greedy" | "none"
+noise_scale: 0.1
+
+epsilon_start: 1.0
+epsilon_final: 0.05
+epsilon_decay_frames: 200000
+
+max_grad_norm: 10.0
+
+save_best: true
+save_every_episodes: 100
+eval_every_episodes: 50
+eval_episodes: 10
+
+record_video_on_best: true
+record_video_every_best_multiple: 50
