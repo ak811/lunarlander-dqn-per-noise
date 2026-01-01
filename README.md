@@ -88,16 +88,6 @@ python scripts/record_video.py   --config experiments/<run>/config.yaml   --chec
 
 ---
 
-## Outputs
-
-Each run directory contains:
-- `models/`: best, checkpoints, final model
-- `plots/`: reward curve (and best curve snapshots)
-- `videos/`: recorded episodes (if enabled)
-- `logs/`: a training log file
-
----
-
 ## Testing
 
 ```bash
