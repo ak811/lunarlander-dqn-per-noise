@@ -32,20 +32,6 @@ It logs training metrics, saves checkpoints, plots reward curves, and records vi
 
 ---
 
-## Project Structure
-
-```text
-lunarlander-dqn-per-noise/
-├─ configs/            # YAML configs
-├─ src/                # package source
-├─ scripts/            # CLI entrypoints
-├─ experiments/        # training runs written here (not committed)
-├─ assets/             # optional: figures/videos for README
-└─ tests/              # smoke tests
-```
-
----
-
 ## Installation
 
 ```bash
@@ -122,4 +108,4 @@ pytest -q
 
 ## License
 
-MIT.
+MIT (See `LICENSE`).
