@@ -1,0 +1,13 @@
+variants:
+  - name: "uniform_no_noise"
+    replay_mode: "uniform"
+    exploration_mode: "none"
+  - name: "uniform_param_noise"
+    replay_mode: "uniform"
+    exploration_mode: "param_noise"
+  - name: "per_no_noise"
+    replay_mode: "per"
+    exploration_mode: "none"
+  - name: "per_param_noise"
+    replay_mode: "per"
+    exploration_mode: "param_noise"
