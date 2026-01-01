@@ -11,16 +11,3 @@ venv/
 .idea/
 .DS_Store
 
-experiments/*
-!experiments/.gitkeep
-
-assets/figures/*.png
-assets/videos/*.mp4
-assets/videos/*.gif
-
-*.pth
-*.pt
-*.zip
-*.npz
-*.csv
-*.jsonl
