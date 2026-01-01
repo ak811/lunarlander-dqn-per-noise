@@ -1,0 +1,7 @@
+gymnasium[box2d]>=0.29.0
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.7
+PyYAML>=6.0
+tqdm>=4.66
+pytest>=7.4
